@@ -3,6 +3,7 @@
 namespace PhpLab\Sandbox\Example\Domain\Enums;
 
 use PhpLab\Core\Domain\Base\BaseEnum;
+use PhpLab\Core\Libs\I18Next\Facades\I18Next;
 
 class StatusEnum extends BaseEnum
 {
@@ -17,12 +18,12 @@ class StatusEnum extends BaseEnum
     public static function getLabels()
     {
         return [
-            self::DELETED => 'удален',
-            self::DISABLE => 'отключен',
-            self::REJECTED => 'отвергнут / отклонен',
-            self::BLOCKED => 'заблокирован',
-            self::WAIT_APPROVING => 'ожидает одобрения / премодерация',
-            self::ENABLE => 'включен / одобрен',
+            self::DELETED => I18Next::t('example', 'book.statuses.deleted'),
+            self::DISABLE => I18Next::t('example', 'book.statuses.disable'),
+            self::REJECTED => I18Next::t('example', 'book.statuses.rejected'),
+            self::BLOCKED => I18Next::t('example', 'book.statuses.blocked'),
+            self::WAIT_APPROVING => I18Next::t('example', 'book.statuses.wait_approving'),
+            self::ENABLE => I18Next::t('example', 'book.statuses.enable'),
         ];
     }
 
