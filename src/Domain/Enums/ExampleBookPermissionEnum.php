@@ -13,8 +13,8 @@ class ExampleBookPermissionEnum extends BaseEnum
     public static function getLabels()
     {
         return [
-            self::WRITE => 'Справочник. Модификация',
-            self::READ => 'Справочник. Чтение',
+            self::WRITE => I18Next::t('example', 'book.permissions.write'),
+            self::READ => I18Next::t('example', 'book.permissions.read'),
         ];
     }
 
