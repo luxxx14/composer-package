@@ -11,7 +11,10 @@
 * Документация REST API
 * Автотесты
 * Доменная модель (Domain)
-* Модули для Laravel, Symfony, Yii
+* Модули
+    * Laravel
+    * Symfony
+    * Yii
 
 Цели:
 
