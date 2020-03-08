@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpLab\Bundle\Tests\Unit;
+namespace PhpTpl\Example\Tests\Unit;
 
 use PhpLab\Test\Base\BaseTest;
 
