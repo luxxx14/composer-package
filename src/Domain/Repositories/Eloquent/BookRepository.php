@@ -10,6 +10,10 @@ class BookRepository extends BaseEloquentCrudRepository implements BookRepositor
 {
 
     protected $tableName = 'example_book';
-    protected $entityClass = BookEntity::class;
+
+    public function getEntityClass(): string
+    {
+        return BookEntity::class;
+    }
 
 }
