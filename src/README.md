@@ -5,7 +5,7 @@
 
 Структура бандла:
 
-* Domain - предметная область, независима от приложения и от фрэймворка
+* Domain - доменная модель предметной области, независима от приложения и от фрэймворка
 * модули Yii (API, Web, Console, Admin)
 * модули Symfony (API, Web, Console, Admin)
 * модули Laravel (API, Web, Console, Admin)
